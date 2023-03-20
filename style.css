@@ -1,0 +1,274 @@
+body{
+    color: Black;
+    margin: 0px;
+    padding: 0px;
+    background-color: darkseagreen;
+}
+h1{
+    text-align: center;
+}
+.header{
+    background-color: black;
+    color: White;
+}
+.navbar{
+    display: inline-block;
+    word-spacing: 8px;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 17px;
+}
+.navbar bs{
+    color: red;
+}
+.container{
+    border: 2px solid Black;
+    margin: 60px 450px;
+    width: 30%;
+    border-radius: 35px;
+    background-color: skyblue;
+}
+
+.container:hover{
+    background-color: grey;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* KASAULI  */
+.gt-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: right;
+}
+.gta{
+    flex-basis: 50%;
+}
+.gta-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+.gta-img img{
+    width: 80%;
+    border-radius: 10px;
+}
+.gta h1 {
+    text-align: center;
+}
+.gta p{
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 25px;
+}
+.gta-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.gt.text{
+    padding: 0 40px;
+}
+
+/* vaishno devi */
+.con{
+    margin:120px auto;
+    width:80%;
+    padding:8px;
+}
+
+img{
+    float:left;
+    width:430px;
+    height: 440px;
+    padding:0 30px 0 0;
+    
+}
+
+.text{
+    text-align: justify;
+}
+
+/* books */
+.service-box{
+    content:"";
+    clear:both;
+    margin: auto;
+    display: flex;
+    /* margin-left: 50px; */
+
+}
+/* *{box-sizing:  border-box;} */
+
+.single-service{
+    /* flex-basis: 48%; */
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float:left;
+    width:33.33%;
+    padding:5px;
+    position: relative;
+
+    
+}
+.overlay{
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: lightblue;
+    overflow: hidden;
+    width:75%;
+    height: 0;
+    transition: .5s ease;
+}
+.single-service:hover .overlay{
+    bottom:0;
+    height: 100%;
+}
+.single-service img{
+    
+    border-radius: 7px;
+    display:flex;
+    width:75%;
+    height: auto;
+}
+.text2 {
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/* green house  */
+.oz-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: right;
+}
+.ozl{
+    flex-basis: 50%;
+}
+.ozl-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+.ozl-img img{
+    width: 100%;
+    /* border-radius: 8px; */
+    height: 50%;
+    margin-bottom: 20px;
+}
+.ozl h1 {
+    text-align: center;
+}
+.ozl p{
+    margin-top: 20px;
+    text-align: left;
+}
+.ozl-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.oz-text{
+    padding: 0 40px;
+}
+
+/* badminton */
+.bd-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: right;
+}
+.bdm{
+    flex-basis: 50%;
+}
+.bdm-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+.bdm-img img{
+    width: 100%;
+    /* border-radius: 8px; */
+    height: 50%;
+    margin-bottom: 20px;
+}
+.bdm h1 {
+    text-align: center;
+}
+.bdm p{
+    margin-top: 20px;
+    text-align: left;
+}
+.bdm-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.bdm-text{
+    padding: 0 40px;
+}
+
+/* football */
+.con{
+    margin:120px auto;
+    width:80%;
+    padding:8px;
+}
+
+img{
+    float:left;
+    width:430px;
+    height: 400px;
+    padding:0 30px 0 0;
+    
+}
+
+.text{
+    text-align: justify;
+}
+
+/* About me */
+.abm{
+    display: inline-block; 
+    position: relative; 
+    width: 200px; 
+    height: 200px; 
+    overflow: hidden; 
+    border-radius: 50%;
+    margin-left: 10%;
+    margin-bottom: 50px;
+
+}
+.abm img{
+    width: auto; 
+    height: 100%;
+    margin-left: -50px;
+}
+.abm_text{
+    margin-left:25%;
+    margin-top: 5%;
+}
